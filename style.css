@@ -1,0 +1,32 @@
+body{
+    font-family: Tahoma;
+}
+
+header{
+    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    a{
+        margin-left: 25px;
+        margin-right: 25px;
+        color:skyblue;
+        text-decoration: none;
+    }
+    button{
+        background-color:navy;
+        color:silver;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+    }
+    button:hover{
+        background-color:teal;
+    }
+    main{
+    color:darkgoldenrod; 
+    text-align:center;
+    min-height:70vh;
+    padding-top: 70px;
+    }
